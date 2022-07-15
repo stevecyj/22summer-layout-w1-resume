@@ -24,6 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           # github will auto-generate a token for this job and use it
           github_token: ${{ secrets.GITHUB_TOKEN }}
