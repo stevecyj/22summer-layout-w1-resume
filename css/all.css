@@ -21,6 +21,7 @@ body {
   line-height: 95px;
   position: relative;
 }
+
 h1::after {
   content: '';
   position: absolute;
@@ -42,8 +43,13 @@ h1::after {
 
 .subTitle span {
   font-size: 24px;
-  line-height: 29px;
+  line-height: 1.5;
   font-weight: 600;
   color: #a00404;
   padding-left: 16px;
+}
+
+.describe-list {
+  font-weight: 300;
+  line-height: 1.5;
 }
