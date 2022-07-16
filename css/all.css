@@ -11,8 +11,78 @@ body {
   font-weight: 400;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .title {
   font-size: 80px;
   line-height: 95px;
-  border-bottom: 2px solid #000;
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: #000;
+}
+
+.subTitle {
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 500;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+}
+
+.subTitle span {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #a00404;
+  padding-left: 16px;
+}
+
+.describe-list {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.subTitle-white {
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+  justify-content: center;
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  background: #fff;
+}
+
+.subTitle-white span {
+  color: #fff;
+}
+.skills .container {
+  width: 996px;
+}
+.skills-list {
+  width: 224px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 300;
+  padding: 4px 0 4px 24px;
+  border-left: 1px solid #96a9c4;
 }

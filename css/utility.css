@@ -49,12 +49,15 @@
 .mt-5 {
   margin-top: 40px;
 }
+.mt-6 {
+  margin-top: 48px;
+}
 
 .mb-1 {
   margin-bottom: 8px;
 }
-,
-mb-815 {
+
+.mb-815 {
   margin-bottom: 8.15px;
 }
 .mb-2 {
@@ -84,4 +87,12 @@ mb-815 {
 }
 .mb-9 {
   margin-bottom: 72px;
+}
+
+.d-block {
+  display: block;
+}
+
+.bg-dark {
+  background-color: #415165;
 }
