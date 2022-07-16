@@ -59,8 +59,30 @@ h1::after {
   font-weight: 500;
   border-bottom: 1px solid #fff;
   justify-content: center;
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  background: #fff;
 }
 
 .subTitle-white span {
   color: #fff;
+}
+.skills .container {
+  width: 996px;
+}
+.skills-list {
+  width: 224px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 300;
+  padding: 4px 0 4px 24px;
+  border-left: 1px solid #96a9c4;
 }
