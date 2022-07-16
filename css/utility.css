@@ -92,3 +92,7 @@
 .d-block {
   display: block;
 }
+
+.bg-dark {
+  background-color: #415165;
+}
