@@ -36,9 +36,19 @@ h1::after {
   font-size: 32px;
   line-height: 1.5;
   font-weight: 500;
-  border-bottom: 1px solid #000;
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.subTitle::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  background: #000;
 }
 
 .subTitle span {
@@ -57,12 +67,11 @@ h1::after {
 .subTitle-white {
   color: #fff;
   font-weight: 500;
-  border-bottom: 1px solid #fff;
   justify-content: center;
   position: relative;
 }
 
-h1::after {
+.subTitle-white::after {
   content: '';
   position: absolute;
   right: 0;
@@ -83,6 +92,25 @@ h1::after {
   margin: 0 auto;
   color: #fff;
   font-weight: 300;
-  padding: 4px 0 4px 24px;
+  padding-left: 24px;
   border-left: 1px solid #96a9c4;
+}
+
+.experience-list {
+  margin-left: 24px;
+  padding-left: 24px;
+  border-left: 1px solid #96a9c4;
+}
+
+.experience-list li {
+  width: 642px;
+}
+
+.experience-list h3 {
+  font-weight: 500;
+}
+
+.experience-list p {
+  font-size: 20px;
+  font-weight: 300;
 }
