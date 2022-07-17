@@ -102,9 +102,9 @@ h1::after {
   border-left: 1px solid #96a9c4;
 }
 
-.experience-list li {
+/* .experience-list li {
   width: 642px;
-}
+} */
 
 .experience-list h3 {
   font-weight: 500;
@@ -113,4 +113,15 @@ h1::after {
 .experience-list p {
   font-size: 20px;
   font-weight: 300;
+}
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+}
+.contact-list {
+  text-align: center;
+}
+.method a {
+  padding: 0 12px;
 }
